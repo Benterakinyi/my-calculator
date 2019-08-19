@@ -1,3 +1,13 @@
+function submition(){
+    /* declaration  and initialisation */
+     var month=document.getElementById("month").value;
+     var month=parseInt(month);
+     var day=document.getElementById("day").value;
+     var day=parseInt(day);
+     var year=document.getElementById("year").value;
+     var year=parseInt(year);
+     var century=(year-1)/100+1;
+    }
  /* the formula */
  var result=parseInt( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day) % 7 ;
  var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
@@ -79,16 +89,7 @@ else
 {
 alert("input data please");
 }
-function submition(){
-    /* declaration  and initialisation */
-     var month=document.getElementById("month").value;
-     var month=parseInt(month);
-     var day=document.getElementById("day").value;
-     var day=parseInt(day);
-     var year=document.getElementById("year").value;
-     var year=parseInt(year);
-     var century=(year-1)/100+1;
-    }
+
 
 
 
