@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js"></script>
     <title>my-calculator</title>
 </head>
 <body>
   <div class="container">
-    <form>
-        <input type="text" value="date"><br><br>
-        <input type="text" value="month"><br><br>
-        <input type="text" value="year"><br><br>
-        <input type="radio" name="gender" value="male" checked> Male<br><br>
-        <input type="radio" name="gender" value="female"> Female<br><br>
-        <input type="submit" value="submit"><br>
-      </form>
-  </div>  
+  <div class="jumbotron">
+    <h1>Akan Names</h1>
+        <form>
+          <fieldset>
+            <h3>Personal Information</h3>
+          <label>Day</label><br>
+          <input type="text" id="day" placeholder="dd"><br><br>
+          <label>Month</label><br>
+          <input type="text" id="month" placeholder="mm"><br><br>
+          <label>Year</label><br>
+          <input type="text" id="year" placeholder="yy"><br><br>
+          <h2>Sex</h2>
+          <input type="radio" name="gender" value="male" checked> Male<br><br>
+          <input type="radio" name="gender" value="female" checked> Female<br><br>
+          <div class="submit"></div> 
+          <input type="submit" value="submit"><br><br>
+          <input type="reset" value="reset"><br><br>
+        </fieldset>
+        </form>
+        </div 
+      </div> 
 </body>
 </html>
