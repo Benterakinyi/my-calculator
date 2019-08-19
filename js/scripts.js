@@ -20,3 +20,6 @@ alert ("empty number");
 }
 validation(akanNames) 
 var year = document.getElementById("year");
+var dayOfWeek=Math.abs((day+ Math.floor((2.6*month)-0.2)-(2*century)+y+Math.floor(year/4)+Math.floor(c/4))%7);
+
+onclick = (find BMI)
