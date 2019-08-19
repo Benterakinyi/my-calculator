@@ -11,26 +11,23 @@
 </head>
 <body>
   <div class="container">
-  <div class="jumbotron">
-    <h1>Akan Names</h1>
-        <form>
-          <fieldset>
-            <h3>Personal Information</h3>
-          <label>Day</label><br>
-          <input type="text" id="day" placeholder="dd"><br><br>
-          <label>Month</label><br>
-          <input type="text" id="month" placeholder="mm"><br><br>
-          <label>Year</label><br>
-          <input type="text" id="year" placeholder="yy"><br><br>
-          <h2>Sex</h2>
-          <input type="radio" name="gender" value="male" checked> Male<br><br>
-          <input type="radio" name="gender" value="female" checked> Female<br><br>
-          <div class="submit"></div> 
-          <input type="submit" value="submit"><br><br>
-          <input type="reset" value="reset"><br><br>
-        </fieldset>
-        </form>
-        </div 
-      </div> 
+    <div class="jumbotron">
+      <h1>Akan Names</h1>
+        <p style="font-weight:bold;text-align:center;">You just have to enter your birthday date and your gender.</p><br>
+      <form>
+              <label>Day</label><br>
+              <input type="text" id="day" placeholder="dd"  required><br><br>
+              <label>Month</label><br>
+              <input type="text" id="month" placeholder="mm"  required><br><br>
+              <label>Year</label><br>
+              <input type="text" id="year" placeholder="yy"  required><br><br>
+              <input type="radio" name="gender" value="male" checked> Male<br><br>
+              <input type="radio" name="gender" value="female" checked> Female<br><br>
+              <div class="submit"></div> 
+              <input type="submit" value="submit" onclick="submision()"><br>
+      </form>
+          <p id="display"></p
+   </div >
+  </div> 
 </body>
 </html>
